@@ -1,0 +1,30 @@
+*{margin: 0 auto; padding:0; box-sizing: border-box;}
+header{text-align: center; margin-top: 50px; text-transform: uppercase; color: white;}
+
+section{
+    background-color: bisque;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.281);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+section #txt2{
+    font-size: 17px;
+}
+
+img{margin-top: 15px;}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
