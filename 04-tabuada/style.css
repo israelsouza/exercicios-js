@@ -1,0 +1,51 @@
+*{margin: 0 auto; padding: 0; box-sizing: border-box;}
+body{ background-color:rgba(44, 44, 44, 0.87) ; text-align: center;}
+
+header{
+    color: white;
+    margin-top: 25px;
+}
+
+section{
+    background-color: whitesmoke;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 13px 0;
+}
+
+section p{
+    margin: 10px ;
+    text-align: left;
+}
+
+/* Desabilita o pequeno botao do input number em alguns navegadores, no Firefox não */
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+}
+
+input{
+    outline: none;
+ 
+}
+
+button{
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(167, 167, 167) ;
+    padding: 4px 0;
+    outline: none;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
