@@ -53,5 +53,4 @@ function verificar(){
         res.innerHTML = `Detectamos um ${gen} com ${idade} anos de idade`
         res.appendChild(img)
     }
-    window.setTimeout(2000)
 }
