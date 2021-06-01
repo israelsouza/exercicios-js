@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+
+    <section>
+        <p>Digite o primeiro valor:
+            <input type="number" name="" id="num1">
+        </p>
+        <p>Digite o segundo valor:
+            <input type="number" name="" id="num2">
+        </p>
+        
+        <div class="operacao">
+          <button onclick="soma()">+</button>
+          <button onclick="subtracao()">-</button>
+          <button onclick="divisao()">/</button>
+          <button onclick="multiplicacao()">X</button>
+        </div>
+
+        <div id="res"></div>
+    </section>
+
+    <footer>
+        &copy; Exemplo
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
